@@ -1,0 +1,24 @@
+<!-- <ul [dragula]='"bag-items"'>
+  <li *ngFor="let item of items"><a href="">{{item}}</a></li>
+</ul>
+<ul [dragula]='"bag-items"'>
+  <li *ngFor="let person of people">{{person}}</li>
+</ul> -->
+<div class="postite">
+  <div class="green">green</div>
+  <div class="violet">violet</div>
+  <div class="blue">blue</div>
+</div>
+<div class='wrapper'>
+  <div class="container">
+    <div class="todo" [dragula]='"second-bag"'>
+      <div class="card-to" *ngFor="let item of items">{{item}}</div>
+    </div>
+    <div class="doing" [dragula]='"second-bag"'>
+      <div class="card-done" *ngFor="let item of items">{{item}}</div>
+    </div>
+    <div class="done" [dragula]='"second-bag"'>
+      <div class="card-doing" *ngFor="let item of items">{{item}}</div>
+    </div>
+  </div>
+</div>
